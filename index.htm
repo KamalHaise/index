@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <form>
+            <div class="inpDiv">
+                <label for="name">Card Owner</label><br>
+                <input type="text" placeholder="Card Owner Name" id="name">
+            </div>
+            <div class="inpDiv">
+                <label for="">Card number</label>
+                <div class="inpCard" id="inp">
+                    <input type="number" placeholder="Valid card number">
+                    <div class="iconCard">
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-amex"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="date">
+                    <label for="dDate">Expiration Date</label>
+                    <div class="inpDate" id="dDate">
+                        <input type="number" >
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="cvv">
+                    <label for="">CVV</label><br>
+                    <input type="number">
+                </div>
+            </div>
+            <div class="btnDiv">
+                <button>Confirm Payment</button>
+            </div>
+    </form>
+</body>
+</html>

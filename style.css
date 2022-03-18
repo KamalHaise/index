@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body form {
+  width: 35%;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+body form .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  background-color: white;
+  padding: 20px 0 20px 30px;
+  margin: 10px 20px 20px 20px;
+}
+
+body form .cards .card {
+  background-color: whitesmoke;
+  font-size: 20px;
+  padding: 10px;
+}
+
+body form .cards .card:hover {
+  background: #1b45ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-transition: background 500ms;
+  transition: background 500ms;
+}
+
+body form .inpDiv {
+  width: 91%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+body form .inpDiv label {
+  font-weight: 600;
+}
+
+body form .inpDiv input:last-child {
+  width: 97%;
+}
+
+body form .inpDiv .inpCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body form .inpDiv .inpCard input {
+  width: 75%;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+}
+
+body form .inpDiv .inpCard .iconCard {
+  width: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d6d5d5;
+  border: 1px solid grey;
+  border-left: none;
+  border-radius: 0 3px 3px 0;
+}
+
+body form .inpDiv .inpCard .iconCard i {
+  color: #464646;
+}
+
+body form .inpDiv input {
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  outline: none;
+}
+
+body form .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 91%;
+  margin: auto;
+}
+
+body form .info label {
+  font-weight: 600;
+}
+
+body form .info .date .inpDate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body form .info .date .inpDate input {
+  width: 35%;
+  padding: 7px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+body form .info .date .inpDate input:first-child {
+  border-right: none;
+  border-radius: 3px 0 0 3px;
+}
+
+body form .info .date .inpDate input:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+body form .info .cvv {
+  width: 25%;
+  margin-right: 17px;
+}
+
+body form .info .cvv input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  outline: none;
+}
+
+body form .btnDiv {
+  width: 83%;
+  margin: auto;
+  background-color: #e2e2e2;
+  border-top: 1px solid grey;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+body form .btnDiv button {
+  background-color: #0051ff;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
